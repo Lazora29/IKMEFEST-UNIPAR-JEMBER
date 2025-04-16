@@ -544,22 +544,15 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.5;
+  opacity: 0.8;
   z-index: -1;
 }
 
 .contact-section h2 {
   color: #ff6b00;
-  margin-bottom: 30px;
-  font-size: 4rem;
-}
-
-.contact-section .contact-p {
-  color: var(--biru-gelap);
+  margin-top: 3px;
   margin-bottom: 4rem;
-  font-family: 'Poppins';
-  font-weight: 400;
-  font-size: 25px;
+  font-size: 4rem;
 }
 
 .contacts {
@@ -570,7 +563,8 @@ p {
 }
 
 .contact-card {
-  background-color: #f6f6f6;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.2);
   border: 2px solid #ff6b00;
   padding: 20px;
   border-radius: 12px;
