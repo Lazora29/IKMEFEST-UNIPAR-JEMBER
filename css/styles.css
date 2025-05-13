@@ -25,6 +25,7 @@ body {
   padding: 0;
   background-color: var(--putih);
   color: #333;
+  overflow-x: hidden;
 }
 
 nav {
@@ -410,7 +411,7 @@ p {
 
 .bidang-content .judul-bidang {
   margin-bottom: 1rem;
-  background: var(--biru-tua);
+  background: var(--biru-gelap);
   color: var(--putih);
   padding: 8px 10px;
   border-radius: 10px;
@@ -738,11 +739,12 @@ footer .social-item span {
   }
 
   body {
-    padding: 0 10px;
+    padding: 0;
   }
   
   /* navbar */
   .navbar {
+    width: 100%;
     align-items: center;
     padding: 10px;
   }
