@@ -812,7 +812,7 @@ footer .social-item span {
     margin: auto;
     max-width: 100%;
     order: 1;
-    height: 100vh;
+    height: auto;
   }
 
   .content h1 {
@@ -822,6 +822,7 @@ footer .social-item span {
 
   .content h2 {
     font-size: 4.5rem;
+    padding-top: 3rem;
   }
 
   .content p {
