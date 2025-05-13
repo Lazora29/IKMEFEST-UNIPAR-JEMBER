@@ -1,3 +1,32 @@
+// document.addEventListener("DOMContentLoaded", function () {
+//   const hamburgerMenu = document.getElementById("hamburger-menu");
+//   const navbarNav = document.querySelector(".navbar-nav");
+
+//   // Toggle the 'active' class on the navbar when the hamburger menu is clicked
+//   hamburgerMenu.addEventListener("click", function () {
+//     navbarNav.classList.toggle("active");
+//   });
+// });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const hamburgerMenu = document.getElementById("hamburger-menu");
+  const navbarNav = document.querySelector(".navbar-nav");
+
+  // Toggle the 'active' class on the navbar when the hamburger menu is clicked
+  hamburgerMenu.addEventListener("click", function (e) {
+    e.stopPropagation(); // Mencegah event klik pada hamburger menu memicu event di document
+    navbarNav.classList.toggle("active");
+  });
+
+  // Klik di luar navbar untuk menutup menu
+  document.addEventListener("click", function (e) {
+    if (!navbarNav.contains(e.target) && !hamburgerMenu.contains(e.target)) {
+      navbarNav.classList.remove("active");
+    }
+  });
+});
+
+
 document.querySelector('a[href="#about"]').addEventListener("clink", function (e) {
     e.preventDefault();
     const target = document.querySelector("#about");
