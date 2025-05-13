@@ -822,7 +822,6 @@ footer .social-item span {
 
   .content h2 {
     font-size: 4.5rem;
-    padding-top: 1rem;
   }
 
   .content p {
@@ -831,7 +830,6 @@ footer .social-item span {
 
   .fancy {
     align-items: center;
-    margin-bottom: 2rem;
   }
 
   .image {
@@ -842,6 +840,7 @@ footer .social-item span {
     order: 2;
     width: 100%;
     margin-top: -5rem;
+    margin-bottom: 3rem;
     align-items: center;
   }
 
