@@ -320,6 +320,10 @@ p {
   z-index: -1;
 }
 
+.about-section {
+  width: 100%;
+}
+
 .about-content {
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(5px);
@@ -852,7 +856,8 @@ footer .social-item span {
   }
 
   .about-content {
-    padding: 15px;
+    width: 100%;
+    padding: 5px;
   }
 
   .about-content .h2A {
