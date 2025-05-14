@@ -1116,13 +1116,18 @@ footer .social-item span {
     height: auto;
   }
 
+  .contact-section h2 {
+    font-size: 6rem;
+    margin: 0 0 6rem 0;
+  }
+
   .contacts {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 0;
     justify-content: center;
-    margin-bottom: 1rem;
+    margin: 0;
   }
 
   .contact-card {
