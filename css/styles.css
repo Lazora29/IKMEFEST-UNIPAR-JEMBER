@@ -1136,6 +1136,12 @@ footer .social-item span {
     box-sizing: border-box;
   }
 
+  .contact-card-a {
+    text-decoration: none;
+    color: inherit;
+    margin: auto;
+  }
+
   .contact-card .bidang-icon {
     font-size: 40px;
   }
