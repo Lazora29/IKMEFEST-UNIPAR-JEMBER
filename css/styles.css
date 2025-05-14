@@ -1112,12 +1112,17 @@ footer .social-item span {
   /* contact section */
   .contact-section {
     flex-direction: column;
+    align-items: center;
     height: auto;
+  }
+
+  .contacts {
+    padding: 0 0 20px 0;
   }
 
   .contact-card {
     padding: 10px;
-    width: 160px;
+    width: 140px;
   }
 
   .contact-card .h3-contact {
@@ -1129,6 +1134,6 @@ footer .social-item span {
   }
 
   .contact-card a {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
