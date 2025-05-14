@@ -1113,7 +1113,7 @@ footer .social-item span {
   .contact-section {
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
   }
 
   .contacts {
