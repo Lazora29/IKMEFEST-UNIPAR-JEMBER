@@ -352,8 +352,8 @@ p {
   font-family: 'Poppins';
   color: #333;
   letter-spacing: 2px;
-  padding: 10px;
-  margin-bottom: 40px;
+  padding: 0 10px 20px 10px;
+  margin: 0;
   text-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -737,6 +737,118 @@ footer .social-item span {
 }
 
 /* media query */
+/* tablet */
+@media (max-width: 768px){
+  html {
+    font-size: 80%;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .navar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  .navbar-logo a {
+    font-size: 2rem;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .content {
+    /* align-items: center; */
+    margin: auto;
+    max-width: 100%;
+    order: 1;
+    height: 50vh;
+  }
+
+  .content h1 {
+    font-size: 6rem;
+    margin-top: -2rem;
+  }
+
+  .content h2 {
+    font-size: 4.5rem;
+    padding-top: 0.5rem;
+  }
+
+  .content p {
+    font-size: 2rem;
+  }
+
+  .fancy {
+    align-items: center;
+  }
+
+  .image {
+    text-align: center;
+  }
+
+  .image img {
+    order: 2;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    align-items: center;
+  }
+
+  .bidang {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+  }
+
+  .bidang-content {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .footer {
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer .row {
+    flex-direction: column;
+  }
+
+  footer .col-md-6 {
+    margin: 10px;
+    padding: 0;
+    flex-basis: 100%;
+  }
+
+  footer h5 {
+    font-size: 3rem;
+    margin: 0;
+  }
+
+  footer .footer-nav-container {
+    margin-bottom: 10px;
+  }
+
+  footer .copyright {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  footer .social-media {
+    margin: 0;
+    display: flex;
+  }
+}
+
+/* smartphone */
 @media (max-width: 480px) {
   html {
     font-size: 55%;
@@ -821,12 +933,12 @@ footer .social-item span {
 
   .content h1 {
     font-size: 6rem;
-    margin-top: -2rem;
   }
 
   .content h2 {
     font-size: 4.5rem;
-    padding-top: 0.5rem;
+    margin: 0;
+    padding: 0;
   }
 
   .content p {
@@ -844,24 +956,34 @@ footer .social-item span {
   .image img {
     order: 2;
     width: 100%;
+    margin: 0;
     margin-top: 2rem;
     margin-bottom: 3rem;
     align-items: center;
   }
 
   /* about */
+  #about {
+    padding: 0 4rem 5rem 4rem;
+  }
+
   .about {
     flex-direction: column;
     height: auto;
   }
 
+  .about-section {
+    width: 100%;
+  }
+
   .about-content {
     width: 100%;
-    padding: 5px;
+    padding: 0;
   }
 
   .about-content .h2A {
     font-size: 2.5rem;
+    margin: 0;
   }
 
   .about-content .h1A {
@@ -871,6 +993,8 @@ footer .social-item span {
 
   .about-content .pA {
     font-size: 1.5rem;
+    margin: 0;
+    padding: 0 20px 20px 20px;
   }
 
   /* bidang */
@@ -881,6 +1005,7 @@ footer .social-item span {
 
   .bidang .main-container .h1B {
     font-size: 3rem;
+    margin: 0;
   }
 
   .bidang .main-container .h2B {
@@ -907,6 +1032,7 @@ footer .social-item span {
 
   .bidang-content .pengertian-juknis .p-bidang {
     font-size: 1.4rem;
+    padding: 20px 10px;
   }
 
   .bidang-content .pengertian-juknis .h6-juknis {
@@ -915,6 +1041,7 @@ footer .social-item span {
 
   .bidang-content .pengertian-juknis p {
     font-size: 1.4rem;
+    padding: 20px 10px;
   }
 
   .bidang-content .pengertian-juknis .button a {
@@ -952,6 +1079,14 @@ footer .social-item span {
     font-size: 2rem;
   }
 
+  footer .copyright {
+    margin: 0;
+  }
+
+  footer .col-md-6 {
+    margin: 10px;
+  }
+
   footer .col-md-6 p {
     font-size: 1.5rem;
   }
@@ -964,6 +1099,10 @@ footer .social-item span {
 
   footer .social-media i {
     font-size: 2rem;
+  }
+
+  footer .social-item {
+    margin: 5px;
   }
 
   /* contact section */
