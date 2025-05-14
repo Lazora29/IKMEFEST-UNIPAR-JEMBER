@@ -1118,15 +1118,15 @@ footer .social-item span {
 
   .contacts {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    justify-content: center;
-    padding: 0 0 20px 0;
+    justify-content: center;;
   }
 
   .contact-card {
     padding: 10px;
-    width: 100%;
+    width: 140px;
+    box-sizing: border-box;
   }
 
   .contact-card .bidang-icon {
