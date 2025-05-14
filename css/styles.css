@@ -1122,15 +1122,19 @@ footer .social-item span {
 
   .contact-card {
     padding: 10px;
-    width: 140px;
+    width: 120px;
+  }
+
+  .contact-card .bidang-icon {
+    font-size: 40px;
   }
 
   .contact-card .h3-contact {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .contact-card .p-contact {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   .contact-card a {
