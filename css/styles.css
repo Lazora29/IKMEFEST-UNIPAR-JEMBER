@@ -915,6 +915,37 @@ footer .social-item span {
     padding: 10px;
   }
 
+  /* registrasi */
+  .registrasi-section {
+    padding: 30px 10px;
+    height: auto;
+  }
+
+  .regis-title {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .regist {
+    gap: 15px;
+  }
+
+  .regist-card-form {
+    max-width: 500px;
+    height: 60px;
+    padding: 10px 15px;
+  }
+
+  .regist-icon {
+    font-size: 35px;
+    margin-right: 10px;
+  }
+
+  .teks-form {
+    font-size: 1.4;
+  }
+
+  /* footer */
   .footer {
     padding: 20px;
     text-align: center;
@@ -1159,54 +1190,6 @@ footer .social-item span {
     display: none;
   }
 
-  /* footer */
-  footer {
-    padding: 20px;
-  }
-
-  footer .row {
-    flex-direction: column;
-  }
-
-  footer .col-md-6 {
-    flex-basis: 100%;
-    margin-bottom: 20px;
-  }
-
-  footer h5 {
-    font-size: 5rem;
-  }
-
-  footer .footer-nav-list li a {
-    font-size: 2rem;
-  }
-
-  footer .copyright {
-    margin: 0;
-  }
-
-  footer .col-md-6 {
-    margin: 10px;
-  }
-
-  footer .col-md-6 p {
-    font-size: 1.5rem;
-  }
-
-  footer .social-media {
-    font-size: 1rem;
-    margin-left: 0;
-    align-items: left;
-  }
-
-  footer .social-media i {
-    font-size: 2rem;
-  }
-
-  footer .social-item {
-    margin: 5px;
-  }
-
   /* contact section */
   .contact-section {
     flex-direction: column;
@@ -1254,5 +1237,84 @@ footer .social-item span {
 
   .contact-card a {
     font-size: 1.2rem;
+  }
+
+  /* registrasi */
+  .registrasi-section {
+    padding: 20px 5px;
+  }
+
+  .regis-title {
+    font-size: 3rem;
+    margin: 0 0 2rem 0;
+  }
+
+  .regist {
+    gap: 10px;
+    margin: 0 0 3rem 0;
+  }
+
+  .regist-card-form {
+    max-width: 250px;
+    height: 50px;
+    padding: 8px 10px;
+  }
+
+  .regist-icon {
+    font-size: 20px;
+    margin-right: 8px;
+  }
+
+  .teks-form {
+    font-size: 1.2rem;
+  }
+
+  
+  /* footer */
+  footer {
+    padding: 20px;
+  }
+
+  footer .row {
+    flex-direction: column;
+  }
+
+  footer .col-md-6 {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+
+  footer h5 {
+    font-size: 5rem;
+  }
+
+  footer .footer-nav-list li a {
+    font-size: 2rem;
+  }
+
+  footer .copyright {
+    margin: 0;
+  }
+
+  footer .col-md-6 {
+    margin: 10px;
+  }
+
+  footer .col-md-6 p {
+    font-size: 1.5rem;
+  }
+
+  footer .social-media {
+    font-size: 1rem;
+    margin-left: 0;
+    align-items: left;
+  }
+
+  footer .social-media i {
+    font-size: 2rem;
+  }
+
+  footer .social-item {
+    margin: 5px;
   }
 }
