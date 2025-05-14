@@ -1120,9 +1120,9 @@ footer .social-item span {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    padding: 0 0 50px 0;
+    padding: 0;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   .contact-card {
