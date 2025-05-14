@@ -1113,7 +1113,7 @@ footer .social-item span {
   .contact-section {
     flex-direction: column;
     align-items: center;
-    height: 80vh;
+    height: auto;
   }
 
   .contacts {
@@ -1121,7 +1121,8 @@ footer .social-item span {
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     padding: 0 0 50px 0;
-    justify-content: center;;
+    justify-content: center;
+    margin-bottom: 2rem;
   }
 
   .contact-card {
