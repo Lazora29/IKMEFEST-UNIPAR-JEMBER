@@ -703,6 +703,10 @@ footer .copyright {
   margin-top: 20px;
 }
 
+footer .copyright .lazora {
+  text-decoration: none;
+}
+
 footer .copyright strong {
   color: var(--putih);
 }
